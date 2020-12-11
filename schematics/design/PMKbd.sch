@@ -1,0 +1,1314 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 3
+Title "PMKbd"
+Date "2020-09-16"
+Rev "0.1"
+Comp "Philipp Mundhenk"
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+Wire Notes Line
+	6550 6900 6550 5400
+Text Notes 2100 4050 2    50   ~ 0
+Pinky
+Text Notes 2850 4050 2    50   ~ 0
+Ring
+Text Notes 3550 4050 2    50   ~ 0
+Middle
+Text Notes 4950 4050 2    50   ~ 0
+Index
+Text Notes 6500 5500 2    50   ~ 0
+Thumb Cluster
+Wire Notes Line
+	5000 3950 5000 6050
+Wire Notes Line
+	650  3950 5000 3950
+Wire Notes Line
+	5000 6050 3600 6050
+Wire Notes Line
+	6550 5400 5000 5400
+Wire Notes Line
+	3600 6900 6550 6900
+Wire Notes Line
+	650  6300 3600 6300
+Wire Notes Line
+	3600 3950 3600 6900
+Wire Notes Line
+	2900 3950 2900 6300
+Wire Notes Line
+	650  6300 650  3950
+Wire Notes Line
+	2150 3950 2150 6300
+Wire Wire Line
+	4950 6000 5650 6000
+Connection ~ 4950 6000
+Wire Wire Line
+	5000 6650 5700 6650
+Connection ~ 5000 6650
+Wire Wire Line
+	5000 6350 5000 6650
+Wire Wire Line
+	6400 6650 6400 6350
+Wire Wire Line
+	4300 6650 5000 6650
+Connection ~ 4950 4750
+Connection ~ 5700 6650
+Wire Wire Line
+	5700 6350 5700 6650
+Wire Wire Line
+	5100 6300 5100 6350
+Wire Wire Line
+	5800 6300 5800 6350
+Text GLabel 5800 6300 1    50   Input ~ 0
+S23
+Text GLabel 5100 6300 1    50   Input ~ 0
+S22
+$Comp
+L Switch:SW_MEC_5G SW?
+U 1 1 6001704E
+P 6100 6350
+AR Path="/6001704E" Ref="SW?"  Part="1" 
+AR Path="/5FEABC8D/6001704E" Ref="SW?"  Part="1" 
+F 0 "SW?" H 6250 6460 50  0000 C CNN
+F 1 "SW_PUSH" H 6100 6270 50  0000 C CNN
+F 2 "" H 6100 6350 50  0001 C CNN
+F 3 "" H 6100 6350 50  0000 C CNN
+	1    6100 6350
+	1    0    0    -1  
+$EndComp
+$Comp
+L Switch:SW_MEC_5G SW?
+U 1 1 60017054
+P 5400 6350
+AR Path="/60017054" Ref="SW?"  Part="1" 
+AR Path="/5FEABC8D/60017054" Ref="SW?"  Part="1" 
+F 0 "SW?" H 5550 6460 50  0000 C CNN
+F 1 "SW_PUSH" H 5400 6270 50  0000 C CNN
+F 2 "" H 5400 6350 50  0001 C CNN
+F 3 "" H 5400 6350 50  0000 C CNN
+	1    5400 6350
+	1    0    0    -1  
+$EndComp
+$Comp
+L Switch:SW_MEC_5G SW?
+U 1 1 6001705A
+P 4000 6350
+AR Path="/6001705A" Ref="SW?"  Part="1" 
+AR Path="/5FEABC8D/6001705A" Ref="SW?"  Part="1" 
+F 0 "SW?" H 4150 6460 50  0000 C CNN
+F 1 "SW_PUSH" H 4000 6270 50  0000 C CNN
+F 2 "" H 4000 6350 50  0001 C CNN
+F 3 "" H 4000 6350 50  0000 C CNN
+	1    4000 6350
+	1    0    0    -1  
+$EndComp
+$Comp
+L Switch:SW_MEC_5G SW?
+U 1 1 60017060
+P 5350 5700
+AR Path="/60017060" Ref="SW?"  Part="1" 
+AR Path="/5FEABC8D/60017060" Ref="SW?"  Part="1" 
+F 0 "SW?" H 5500 5810 50  0000 C CNN
+F 1 "SW_PUSH" H 5350 5620 50  0000 C CNN
+F 2 "" H 5350 5700 50  0001 C CNN
+F 3 "" H 5350 5700 50  0000 C CNN
+	1    5350 5700
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3550 5700 3550 6000
+Connection ~ 3550 6000
+Wire Wire Line
+	3550 6000 4250 6000
+Wire Wire Line
+	2850 5700 2850 6000
+Connection ~ 2850 6000
+Wire Wire Line
+	2850 6000 3550 6000
+Wire Wire Line
+	2150 6000 2850 6000
+Wire Wire Line
+	5650 5700 5650 6000
+Text GLabel 5050 5650 1    50   Input ~ 0
+S19
+Text GLabel 3700 6300 1    50   Input ~ 0
+S20
+Wire Wire Line
+	3700 6300 3700 6350
+Wire Wire Line
+	5050 5700 5050 5650
+Connection ~ 4250 6000
+Connection ~ 2150 6000
+Wire Wire Line
+	4400 6300 4400 6350
+Wire Wire Line
+	4350 5650 4350 5700
+Wire Wire Line
+	3650 5650 3650 5700
+Wire Wire Line
+	2950 5650 2950 5700
+Wire Wire Line
+	2250 5650 2250 5700
+Wire Wire Line
+	1550 5650 1550 5700
+Wire Wire Line
+	850  5650 850  5700
+Wire Wire Line
+	850  5000 850  5100
+Wire Wire Line
+	1550 5000 1550 5100
+Wire Wire Line
+	2250 5000 2250 5100
+Wire Wire Line
+	2950 5000 2950 5100
+Wire Wire Line
+	3650 5000 3650 5100
+Wire Wire Line
+	4350 5000 4350 5100
+Wire Wire Line
+	4350 4200 4350 4450
+Wire Wire Line
+	3650 4200 3650 4450
+Wire Wire Line
+	2950 4200 2950 4450
+Wire Wire Line
+	2250 4200 2250 4450
+Wire Wire Line
+	1550 4200 1550 4450
+Text GLabel 4400 6300 1    50   Input ~ 0
+S21
+Text GLabel 4350 5650 1    50   Input ~ 0
+S18
+Text GLabel 3650 5650 1    50   Input ~ 0
+S17
+Text GLabel 2950 5650 1    50   Input ~ 0
+S16
+Text GLabel 2250 5650 1    50   Input ~ 0
+S15
+Text GLabel 1550 5650 1    50   Input ~ 0
+S14
+Text GLabel 850  5650 1    50   Input ~ 0
+S13
+Text GLabel 4350 5000 1    50   Input ~ 0
+S12
+Text GLabel 3650 5000 1    50   Input ~ 0
+S11
+Text GLabel 2950 5000 1    50   Input ~ 0
+S10
+Text GLabel 2250 5000 1    50   Input ~ 0
+S9
+Text GLabel 1550 5000 1    50   Input ~ 0
+S8
+Text GLabel 850  5000 1    50   Input ~ 0
+S7
+Text GLabel 4350 4200 1    50   Input ~ 0
+S6
+Text GLabel 3650 4200 1    50   Input ~ 0
+S5
+Text GLabel 2950 4200 1    50   Input ~ 0
+S4
+Text GLabel 2250 4200 1    50   Input ~ 0
+S3
+Text GLabel 1550 4200 1    50   Input ~ 0
+S2
+Wire Wire Line
+	850  4200 850  4450
+Text GLabel 850  4200 1    50   Input ~ 0
+S1
+Connection ~ 4950 5400
+Wire Wire Line
+	4300 6350 4300 6650
+Wire Wire Line
+	1450 6000 2150 6000
+Connection ~ 1450 6000
+Wire Wire Line
+	1450 5700 1450 6000
+Wire Wire Line
+	2150 5700 2150 6000
+Wire Wire Line
+	4250 6000 4950 6000
+Wire Wire Line
+	4250 5700 4250 6000
+Wire Wire Line
+	4250 5400 4950 5400
+Connection ~ 4250 5400
+Wire Wire Line
+	4250 5100 4250 5400
+Wire Wire Line
+	3550 5400 4250 5400
+Connection ~ 3550 5400
+Wire Wire Line
+	3550 5100 3550 5400
+Wire Wire Line
+	2850 5400 3550 5400
+Connection ~ 2850 5400
+Wire Wire Line
+	2850 5100 2850 5400
+Wire Wire Line
+	2150 5400 2850 5400
+Connection ~ 2150 5400
+Wire Wire Line
+	2150 5100 2150 5400
+Wire Wire Line
+	1450 5400 2150 5400
+Connection ~ 1450 5400
+Wire Wire Line
+	1450 5100 1450 5400
+Wire Wire Line
+	4950 4450 4950 4750
+Wire Wire Line
+	4250 4750 4950 4750
+Connection ~ 4250 4750
+Wire Wire Line
+	4250 4450 4250 4750
+Wire Wire Line
+	3550 4750 4250 4750
+Connection ~ 3550 4750
+Wire Wire Line
+	3550 4450 3550 4750
+Wire Wire Line
+	2850 4750 3550 4750
+Connection ~ 2850 4750
+Wire Wire Line
+	2850 4450 2850 4750
+Wire Wire Line
+	2150 4750 2850 4750
+Connection ~ 2150 4750
+Wire Wire Line
+	2150 4450 2150 4750
+Wire Wire Line
+	1450 4750 2150 4750
+Connection ~ 1450 4750
+Wire Wire Line
+	1450 4450 1450 4750
+$Comp
+L Switch:SW_MEC_5G SW?
+U 1 1 600170C4
+P 1150 4450
+AR Path="/600170C4" Ref="SW?"  Part="1" 
+AR Path="/5FEABC8D/600170C4" Ref="SW?"  Part="1" 
+F 0 "SW?" H 1300 4560 50  0000 C CNN
+F 1 "SW_PUSH" H 1150 4370 50  0000 C CNN
+F 2 "" H 1150 4450 50  0001 C CNN
+F 3 "" H 1150 4450 50  0000 C CNN
+	1    1150 4450
+	1    0    0    -1  
+$EndComp
+$Comp
+L Switch:SW_MEC_5G SW?
+U 1 1 600170CA
+P 1150 5700
+AR Path="/600170CA" Ref="SW?"  Part="1" 
+AR Path="/5FEABC8D/600170CA" Ref="SW?"  Part="1" 
+F 0 "SW?" H 1300 5810 50  0000 C CNN
+F 1 "SW_PUSH" H 1150 5620 50  0000 C CNN
+F 2 "" H 1150 5700 50  0001 C CNN
+F 3 "" H 1150 5700 50  0000 C CNN
+	1    1150 5700
+	1    0    0    -1  
+$EndComp
+$Comp
+L Switch:SW_MEC_5G SW?
+U 1 1 600170D0
+P 1150 5100
+AR Path="/600170D0" Ref="SW?"  Part="1" 
+AR Path="/5FEABC8D/600170D0" Ref="SW?"  Part="1" 
+F 0 "SW?" H 1300 5210 50  0000 C CNN
+F 1 "SW_PUSH" H 1150 5020 50  0000 C CNN
+F 2 "" H 1150 5100 50  0001 C CNN
+F 3 "" H 1150 5100 50  0000 C CNN
+	1    1150 5100
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1300 6000 1450 6000
+Wire Wire Line
+	1300 5400 1450 5400
+Wire Wire Line
+	1300 4750 1450 4750
+$Comp
+L Switch:SW_MEC_5G SW?
+U 1 1 600170D9
+P 4700 6350
+AR Path="/600170D9" Ref="SW?"  Part="1" 
+AR Path="/5FEABC8D/600170D9" Ref="SW?"  Part="1" 
+F 0 "SW?" H 4850 6460 50  0000 C CNN
+F 1 "SW_PUSH" H 4700 6270 50  0000 C CNN
+F 2 "" H 4700 6350 50  0001 C CNN
+F 3 "" H 4700 6350 50  0000 C CNN
+	1    4700 6350
+	1    0    0    -1  
+$EndComp
+$Comp
+L Switch:SW_MEC_5G SW?
+U 1 1 600170DF
+P 4650 5700
+AR Path="/600170DF" Ref="SW?"  Part="1" 
+AR Path="/5FEABC8D/600170DF" Ref="SW?"  Part="1" 
+F 0 "SW?" H 4800 5810 50  0000 C CNN
+F 1 "SW_PUSH" H 4650 5620 50  0000 C CNN
+F 2 "" H 4650 5700 50  0001 C CNN
+F 3 "" H 4650 5700 50  0000 C CNN
+	1    4650 5700
+	1    0    0    -1  
+$EndComp
+$Comp
+L Switch:SW_MEC_5G SW?
+U 1 1 600170E5
+P 3950 5700
+AR Path="/600170E5" Ref="SW?"  Part="1" 
+AR Path="/5FEABC8D/600170E5" Ref="SW?"  Part="1" 
+F 0 "SW?" H 4100 5810 50  0000 C CNN
+F 1 "SW_PUSH" H 3950 5620 50  0000 C CNN
+F 2 "" H 3950 5700 50  0001 C CNN
+F 3 "" H 3950 5700 50  0000 C CNN
+	1    3950 5700
+	1    0    0    -1  
+$EndComp
+$Comp
+L Switch:SW_MEC_5G SW?
+U 1 1 600170EB
+P 3250 5700
+AR Path="/600170EB" Ref="SW?"  Part="1" 
+AR Path="/5FEABC8D/600170EB" Ref="SW?"  Part="1" 
+F 0 "SW?" H 3400 5810 50  0000 C CNN
+F 1 "SW_PUSH" H 3250 5620 50  0000 C CNN
+F 2 "" H 3250 5700 50  0001 C CNN
+F 3 "" H 3250 5700 50  0000 C CNN
+	1    3250 5700
+	1    0    0    -1  
+$EndComp
+$Comp
+L Switch:SW_MEC_5G SW?
+U 1 1 600170F1
+P 2550 5700
+AR Path="/600170F1" Ref="SW?"  Part="1" 
+AR Path="/5FEABC8D/600170F1" Ref="SW?"  Part="1" 
+F 0 "SW?" H 2700 5810 50  0000 C CNN
+F 1 "SW_PUSH" H 2550 5620 50  0000 C CNN
+F 2 "" H 2550 5700 50  0001 C CNN
+F 3 "" H 2550 5700 50  0000 C CNN
+	1    2550 5700
+	1    0    0    -1  
+$EndComp
+$Comp
+L Switch:SW_MEC_5G SW?
+U 1 1 600170F7
+P 1850 5700
+AR Path="/600170F7" Ref="SW?"  Part="1" 
+AR Path="/5FEABC8D/600170F7" Ref="SW?"  Part="1" 
+F 0 "SW?" H 2000 5810 50  0000 C CNN
+F 1 "SW_PUSH" H 1850 5620 50  0000 C CNN
+F 2 "" H 1850 5700 50  0001 C CNN
+F 3 "" H 1850 5700 50  0000 C CNN
+	1    1850 5700
+	1    0    0    -1  
+$EndComp
+$Comp
+L Switch:SW_MEC_5G SW?
+U 1 1 600170FD
+P 4650 5100
+AR Path="/600170FD" Ref="SW?"  Part="1" 
+AR Path="/5FEABC8D/600170FD" Ref="SW?"  Part="1" 
+F 0 "SW?" H 4800 5210 50  0000 C CNN
+F 1 "SW_PUSH" H 4650 5020 50  0000 C CNN
+F 2 "" H 4650 5100 50  0001 C CNN
+F 3 "" H 4650 5100 50  0000 C CNN
+	1    4650 5100
+	1    0    0    -1  
+$EndComp
+$Comp
+L Switch:SW_MEC_5G SW?
+U 1 1 60017103
+P 3950 5100
+AR Path="/60017103" Ref="SW?"  Part="1" 
+AR Path="/5FEABC8D/60017103" Ref="SW?"  Part="1" 
+F 0 "SW?" H 4100 5210 50  0000 C CNN
+F 1 "SW_PUSH" H 3950 5020 50  0000 C CNN
+F 2 "" H 3950 5100 50  0001 C CNN
+F 3 "" H 3950 5100 50  0000 C CNN
+	1    3950 5100
+	1    0    0    -1  
+$EndComp
+$Comp
+L Switch:SW_MEC_5G SW?
+U 1 1 60017109
+P 3250 5100
+AR Path="/60017109" Ref="SW?"  Part="1" 
+AR Path="/5FEABC8D/60017109" Ref="SW?"  Part="1" 
+F 0 "SW?" H 3400 5210 50  0000 C CNN
+F 1 "SW_PUSH" H 3250 5020 50  0000 C CNN
+F 2 "" H 3250 5100 50  0001 C CNN
+F 3 "" H 3250 5100 50  0000 C CNN
+	1    3250 5100
+	1    0    0    -1  
+$EndComp
+$Comp
+L Switch:SW_MEC_5G SW?
+U 1 1 6001710F
+P 2550 5100
+AR Path="/6001710F" Ref="SW?"  Part="1" 
+AR Path="/5FEABC8D/6001710F" Ref="SW?"  Part="1" 
+F 0 "SW?" H 2700 5210 50  0000 C CNN
+F 1 "SW_PUSH" H 2550 5020 50  0000 C CNN
+F 2 "" H 2550 5100 50  0001 C CNN
+F 3 "" H 2550 5100 50  0000 C CNN
+	1    2550 5100
+	1    0    0    -1  
+$EndComp
+$Comp
+L Switch:SW_MEC_5G SW?
+U 1 1 60017115
+P 1850 5100
+AR Path="/60017115" Ref="SW?"  Part="1" 
+AR Path="/5FEABC8D/60017115" Ref="SW?"  Part="1" 
+F 0 "SW?" H 2000 5210 50  0000 C CNN
+F 1 "SW_PUSH" H 1850 5020 50  0000 C CNN
+F 2 "" H 1850 5100 50  0001 C CNN
+F 3 "" H 1850 5100 50  0000 C CNN
+	1    1850 5100
+	1    0    0    -1  
+$EndComp
+$Comp
+L Switch:SW_MEC_5G SW?
+U 1 1 6001711B
+P 4650 4450
+AR Path="/6001711B" Ref="SW?"  Part="1" 
+AR Path="/5FEABC8D/6001711B" Ref="SW?"  Part="1" 
+F 0 "SW?" H 4800 4560 50  0000 C CNN
+F 1 "SW_PUSH" H 4650 4370 50  0000 C CNN
+F 2 "" H 4650 4450 50  0001 C CNN
+F 3 "" H 4650 4450 50  0000 C CNN
+	1    4650 4450
+	1    0    0    -1  
+$EndComp
+$Comp
+L Switch:SW_MEC_5G SW?
+U 1 1 60017121
+P 3950 4450
+AR Path="/60017121" Ref="SW?"  Part="1" 
+AR Path="/5FEABC8D/60017121" Ref="SW?"  Part="1" 
+F 0 "SW?" H 4100 4560 50  0000 C CNN
+F 1 "SW_PUSH" H 3950 4370 50  0000 C CNN
+F 2 "" H 3950 4450 50  0001 C CNN
+F 3 "" H 3950 4450 50  0000 C CNN
+	1    3950 4450
+	1    0    0    -1  
+$EndComp
+$Comp
+L Switch:SW_MEC_5G SW?
+U 1 1 60017127
+P 3250 4450
+AR Path="/60017127" Ref="SW?"  Part="1" 
+AR Path="/5FEABC8D/60017127" Ref="SW?"  Part="1" 
+F 0 "SW?" H 3400 4560 50  0000 C CNN
+F 1 "SW_PUSH" H 3250 4370 50  0000 C CNN
+F 2 "" H 3250 4450 50  0001 C CNN
+F 3 "" H 3250 4450 50  0000 C CNN
+	1    3250 4450
+	1    0    0    -1  
+$EndComp
+$Comp
+L Switch:SW_MEC_5G SW?
+U 1 1 6001712D
+P 2550 4450
+AR Path="/6001712D" Ref="SW?"  Part="1" 
+AR Path="/5FEABC8D/6001712D" Ref="SW?"  Part="1" 
+F 0 "SW?" H 2700 4560 50  0000 C CNN
+F 1 "SW_PUSH" H 2550 4370 50  0000 C CNN
+F 2 "" H 2550 4450 50  0001 C CNN
+F 3 "" H 2550 4450 50  0000 C CNN
+	1    2550 4450
+	1    0    0    -1  
+$EndComp
+$Comp
+L Switch:SW_MEC_5G SW?
+U 1 1 60017133
+P 1850 4450
+AR Path="/60017133" Ref="SW?"  Part="1" 
+AR Path="/5FEABC8D/60017133" Ref="SW?"  Part="1" 
+F 0 "SW?" H 2000 4560 50  0000 C CNN
+F 1 "SW_PUSH" H 1850 4370 50  0000 C CNN
+F 2 "" H 1850 4450 50  0001 C CNN
+F 3 "" H 1850 4450 50  0000 C CNN
+	1    1850 4450
+	1    0    0    -1  
+$EndComp
+Text GLabel 6400 6750 0    50   Input ~ 0
+GND_L
+Wire Wire Line
+	5700 6650 6400 6650
+Wire Wire Line
+	6400 6650 6400 6750
+Connection ~ 6400 6650
+Wire Notes Line
+	5200 3500 5200 2000
+Text Notes 9650 650  0    50   ~ 0
+Pinky
+Text Notes 8900 650  0    50   ~ 0
+Ring
+Text Notes 8200 650  0    50   ~ 0
+Middle
+Text Notes 6800 650  0    50   ~ 0
+Index
+Text Notes 5250 2100 0    50   ~ 0
+Thumb Cluster
+Wire Notes Line
+	6750 550  6750 2650
+Wire Notes Line
+	11100 550  6750 550 
+Wire Notes Line
+	6750 2650 8150 2650
+Wire Notes Line
+	5200 2000 6750 2000
+Wire Notes Line
+	8150 3500 5200 3500
+Wire Notes Line
+	11100 2900 8150 2900
+Wire Notes Line
+	8150 550  8150 3500
+Wire Notes Line
+	8850 550  8850 2900
+Wire Notes Line
+	11100 2900 11100 550 
+Wire Notes Line
+	9600 550  9600 2900
+Wire Wire Line
+	6800 2600 6100 2600
+Connection ~ 6800 2600
+Wire Wire Line
+	6750 3250 6050 3250
+Connection ~ 6750 3250
+Wire Wire Line
+	6750 2950 6750 3250
+Wire Wire Line
+	5350 3250 5350 2950
+Wire Wire Line
+	7450 3250 6750 3250
+Connection ~ 6800 1350
+Wire Wire Line
+	6050 3250 5500 3250
+Connection ~ 6050 3250
+Wire Wire Line
+	6050 2950 6050 3250
+Wire Wire Line
+	6650 2900 6650 2950
+Wire Wire Line
+	5950 2900 5950 2950
+Text GLabel 5950 2900 1    50   Input ~ 0
+S46
+Text GLabel 6650 2900 1    50   Input ~ 0
+S45
+$Comp
+L Switch:SW_MEC_5G SW?
+U 1 1 5FFFED0C
+P 5650 2950
+AR Path="/5FFFED0C" Ref="SW?"  Part="1" 
+AR Path="/5FD3D43D/5FFFED0C" Ref="SW?"  Part="1" 
+F 0 "SW?" H 5800 3060 50  0000 C CNN
+F 1 "SW_PUSH" H 5650 2870 50  0000 C CNN
+F 2 "" H 5650 2950 50  0001 C CNN
+F 3 "" H 5650 2950 50  0000 C CNN
+	1    5650 2950
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Switch:SW_MEC_5G SW?
+U 1 1 5FFFED12
+P 6350 2950
+AR Path="/5FFFED12" Ref="SW?"  Part="1" 
+AR Path="/5FD3D43D/5FFFED12" Ref="SW?"  Part="1" 
+F 0 "SW?" H 6500 3060 50  0000 C CNN
+F 1 "SW_PUSH" H 6350 2870 50  0000 C CNN
+F 2 "" H 6350 2950 50  0001 C CNN
+F 3 "" H 6350 2950 50  0000 C CNN
+	1    6350 2950
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Switch:SW_MEC_5G SW?
+U 1 1 5FFFED18
+P 7750 2950
+AR Path="/5FFFED18" Ref="SW?"  Part="1" 
+AR Path="/5FD3D43D/5FFFED18" Ref="SW?"  Part="1" 
+F 0 "SW?" H 7900 3060 50  0000 C CNN
+F 1 "SW_PUSH" H 7750 2870 50  0000 C CNN
+F 2 "" H 7750 2950 50  0001 C CNN
+F 3 "" H 7750 2950 50  0000 C CNN
+	1    7750 2950
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Switch:SW_MEC_5G SW?
+U 1 1 5FFFED1E
+P 6400 2300
+AR Path="/5FFFED1E" Ref="SW?"  Part="1" 
+AR Path="/5FD3D43D/5FFFED1E" Ref="SW?"  Part="1" 
+F 0 "SW?" H 6550 2410 50  0000 C CNN
+F 1 "SW_PUSH" H 6400 2220 50  0000 C CNN
+F 2 "" H 6400 2300 50  0001 C CNN
+F 3 "" H 6400 2300 50  0000 C CNN
+	1    6400 2300
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	8200 2300 8200 2600
+Connection ~ 8200 2600
+Wire Wire Line
+	8200 2600 7500 2600
+Wire Wire Line
+	8900 2300 8900 2600
+Connection ~ 8900 2600
+Wire Wire Line
+	8900 2600 8200 2600
+Wire Wire Line
+	9600 2600 8900 2600
+Wire Wire Line
+	6100 2300 6100 2600
+Text GLabel 6700 2250 1    50   Input ~ 0
+S42
+Text GLabel 8050 2900 1    50   Input ~ 0
+S43
+Wire Wire Line
+	8050 2900 8050 2950
+Wire Wire Line
+	6700 2300 6700 2250
+Connection ~ 7500 2600
+Connection ~ 9600 2600
+Wire Wire Line
+	7350 2900 7350 2950
+Wire Wire Line
+	7400 2250 7400 2300
+Wire Wire Line
+	8100 2250 8100 2300
+Wire Wire Line
+	8800 2250 8800 2300
+Wire Wire Line
+	9500 2250 9500 2300
+Wire Wire Line
+	10200 2250 10200 2300
+Wire Wire Line
+	10900 2250 10900 2300
+Wire Wire Line
+	10900 1600 10900 1700
+Wire Wire Line
+	10200 1600 10200 1700
+Wire Wire Line
+	9500 1600 9500 1700
+Wire Wire Line
+	8800 1600 8800 1700
+Wire Wire Line
+	8100 1600 8100 1700
+Wire Wire Line
+	7400 1600 7400 1700
+Wire Wire Line
+	7400 800  7400 1050
+Wire Wire Line
+	8100 800  8100 1050
+Wire Wire Line
+	8800 800  8800 1050
+Wire Wire Line
+	9500 800  9500 1050
+Wire Wire Line
+	10200 800  10200 1050
+Text GLabel 7350 2900 1    50   Input ~ 0
+S44
+Text GLabel 7400 2250 1    50   Input ~ 0
+S41
+Text GLabel 8100 2250 1    50   Input ~ 0
+S40
+Text GLabel 8800 2250 1    50   Input ~ 0
+S39
+Text GLabel 9500 2250 1    50   Input ~ 0
+S38
+Text GLabel 10200 2250 1    50   Input ~ 0
+S37
+Text GLabel 10900 2250 1    50   Input ~ 0
+S36
+Text GLabel 7400 1600 1    50   Input ~ 0
+S35
+Text GLabel 8100 1600 1    50   Input ~ 0
+S34
+Text GLabel 8800 1600 1    50   Input ~ 0
+S33
+Text GLabel 9500 1600 1    50   Input ~ 0
+S32
+Text GLabel 10200 1600 1    50   Input ~ 0
+S31
+Text GLabel 10900 1600 1    50   Input ~ 0
+S30
+Text GLabel 7400 800  1    50   Input ~ 0
+S29
+Text GLabel 8100 800  1    50   Input ~ 0
+S28
+Text GLabel 8800 800  1    50   Input ~ 0
+S27
+Text GLabel 9500 800  1    50   Input ~ 0
+S26
+Text GLabel 10200 800  1    50   Input ~ 0
+S25
+Wire Wire Line
+	10900 800  10900 1050
+Text GLabel 10900 800  1    50   Input ~ 0
+S24
+Connection ~ 6800 2000
+Wire Wire Line
+	7450 2950 7450 3250
+Wire Wire Line
+	10300 2600 9600 2600
+Connection ~ 10300 2600
+Wire Wire Line
+	10300 2300 10300 2600
+Wire Wire Line
+	9600 2300 9600 2600
+Wire Wire Line
+	7500 2600 6800 2600
+Wire Wire Line
+	7500 2300 7500 2600
+Wire Wire Line
+	7500 2000 6800 2000
+Connection ~ 7500 2000
+Wire Wire Line
+	7500 1700 7500 2000
+Wire Wire Line
+	8200 2000 7500 2000
+Connection ~ 8200 2000
+Wire Wire Line
+	8200 1700 8200 2000
+Wire Wire Line
+	8900 2000 8200 2000
+Connection ~ 8900 2000
+Wire Wire Line
+	8900 1700 8900 2000
+Wire Wire Line
+	9600 2000 8900 2000
+Connection ~ 9600 2000
+Wire Wire Line
+	9600 1700 9600 2000
+Wire Wire Line
+	10300 2000 9600 2000
+Connection ~ 10300 2000
+Wire Wire Line
+	10300 1700 10300 2000
+Wire Wire Line
+	6800 1050 6800 1350
+Wire Wire Line
+	7500 1350 6800 1350
+Connection ~ 7500 1350
+Wire Wire Line
+	7500 1050 7500 1350
+Wire Wire Line
+	8200 1350 7500 1350
+Connection ~ 8200 1350
+Wire Wire Line
+	8200 1050 8200 1350
+Wire Wire Line
+	8900 1350 8200 1350
+Connection ~ 8900 1350
+Wire Wire Line
+	8900 1050 8900 1350
+Wire Wire Line
+	9600 1350 8900 1350
+Connection ~ 9600 1350
+Wire Wire Line
+	9600 1050 9600 1350
+Wire Wire Line
+	10300 1350 9600 1350
+Connection ~ 10300 1350
+Wire Wire Line
+	10300 1050 10300 1350
+$Comp
+L Switch:SW_MEC_5G SW?
+U 1 1 5FFFED82
+P 10600 1050
+AR Path="/5FFFED82" Ref="SW?"  Part="1" 
+AR Path="/5FD3D43D/5FFFED82" Ref="SW?"  Part="1" 
+F 0 "SW?" H 10750 1160 50  0000 C CNN
+F 1 "SW_PUSH" H 10600 970 50  0000 C CNN
+F 2 "" H 10600 1050 50  0001 C CNN
+F 3 "" H 10600 1050 50  0000 C CNN
+	1    10600 1050
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Switch:SW_MEC_5G SW?
+U 1 1 5FFFED88
+P 10600 2300
+AR Path="/5FFFED88" Ref="SW?"  Part="1" 
+AR Path="/5FD3D43D/5FFFED88" Ref="SW?"  Part="1" 
+F 0 "SW?" H 10750 2410 50  0000 C CNN
+F 1 "SW_PUSH" H 10600 2220 50  0000 C CNN
+F 2 "" H 10600 2300 50  0001 C CNN
+F 3 "" H 10600 2300 50  0000 C CNN
+	1    10600 2300
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Switch:SW_MEC_5G SW?
+U 1 1 5FFFED8E
+P 10600 1700
+AR Path="/5FFFED8E" Ref="SW?"  Part="1" 
+AR Path="/5FD3D43D/5FFFED8E" Ref="SW?"  Part="1" 
+F 0 "SW?" H 10750 1810 50  0000 C CNN
+F 1 "SW_PUSH" H 10600 1620 50  0000 C CNN
+F 2 "" H 10600 1700 50  0001 C CNN
+F 3 "" H 10600 1700 50  0000 C CNN
+	1    10600 1700
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	10450 2600 10300 2600
+Wire Wire Line
+	10450 2000 10300 2000
+Wire Wire Line
+	10450 1350 10300 1350
+$Comp
+L Switch:SW_MEC_5G SW?
+U 1 1 5FFFED97
+P 7050 2950
+AR Path="/5FFFED97" Ref="SW?"  Part="1" 
+AR Path="/5FD3D43D/5FFFED97" Ref="SW?"  Part="1" 
+F 0 "SW?" H 7200 3060 50  0000 C CNN
+F 1 "SW_PUSH" H 7050 2870 50  0000 C CNN
+F 2 "" H 7050 2950 50  0001 C CNN
+F 3 "" H 7050 2950 50  0000 C CNN
+	1    7050 2950
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Switch:SW_MEC_5G SW?
+U 1 1 5FFFED9D
+P 7100 2300
+AR Path="/5FFFED9D" Ref="SW?"  Part="1" 
+AR Path="/5FD3D43D/5FFFED9D" Ref="SW?"  Part="1" 
+F 0 "SW?" H 7250 2410 50  0000 C CNN
+F 1 "SW_PUSH" H 7100 2220 50  0000 C CNN
+F 2 "" H 7100 2300 50  0001 C CNN
+F 3 "" H 7100 2300 50  0000 C CNN
+	1    7100 2300
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Switch:SW_MEC_5G SW?
+U 1 1 5FFFEDA3
+P 7800 2300
+AR Path="/5FFFEDA3" Ref="SW?"  Part="1" 
+AR Path="/5FD3D43D/5FFFEDA3" Ref="SW?"  Part="1" 
+F 0 "SW?" H 7950 2410 50  0000 C CNN
+F 1 "SW_PUSH" H 7800 2220 50  0000 C CNN
+F 2 "" H 7800 2300 50  0001 C CNN
+F 3 "" H 7800 2300 50  0000 C CNN
+	1    7800 2300
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Switch:SW_MEC_5G SW?
+U 1 1 5FFFEDA9
+P 8500 2300
+AR Path="/5FFFEDA9" Ref="SW?"  Part="1" 
+AR Path="/5FD3D43D/5FFFEDA9" Ref="SW?"  Part="1" 
+F 0 "SW?" H 8650 2410 50  0000 C CNN
+F 1 "SW_PUSH" H 8500 2220 50  0000 C CNN
+F 2 "" H 8500 2300 50  0001 C CNN
+F 3 "" H 8500 2300 50  0000 C CNN
+	1    8500 2300
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Switch:SW_MEC_5G SW?
+U 1 1 5FFFEDAF
+P 9200 2300
+AR Path="/5FFFEDAF" Ref="SW?"  Part="1" 
+AR Path="/5FD3D43D/5FFFEDAF" Ref="SW?"  Part="1" 
+F 0 "SW?" H 9350 2410 50  0000 C CNN
+F 1 "SW_PUSH" H 9200 2220 50  0000 C CNN
+F 2 "" H 9200 2300 50  0001 C CNN
+F 3 "" H 9200 2300 50  0000 C CNN
+	1    9200 2300
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Switch:SW_MEC_5G SW?
+U 1 1 5FFFEDB5
+P 9900 2300
+AR Path="/5FFFEDB5" Ref="SW?"  Part="1" 
+AR Path="/5FD3D43D/5FFFEDB5" Ref="SW?"  Part="1" 
+F 0 "SW?" H 10050 2410 50  0000 C CNN
+F 1 "SW_PUSH" H 9900 2220 50  0000 C CNN
+F 2 "" H 9900 2300 50  0001 C CNN
+F 3 "" H 9900 2300 50  0000 C CNN
+	1    9900 2300
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Switch:SW_MEC_5G SW?
+U 1 1 5FFFEDBB
+P 7100 1700
+AR Path="/5FFFEDBB" Ref="SW?"  Part="1" 
+AR Path="/5FD3D43D/5FFFEDBB" Ref="SW?"  Part="1" 
+F 0 "SW?" H 7250 1810 50  0000 C CNN
+F 1 "SW_PUSH" H 7100 1620 50  0000 C CNN
+F 2 "" H 7100 1700 50  0001 C CNN
+F 3 "" H 7100 1700 50  0000 C CNN
+	1    7100 1700
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Switch:SW_MEC_5G SW?
+U 1 1 5FFFEDC1
+P 7800 1700
+AR Path="/5FFFEDC1" Ref="SW?"  Part="1" 
+AR Path="/5FD3D43D/5FFFEDC1" Ref="SW?"  Part="1" 
+F 0 "SW?" H 7950 1810 50  0000 C CNN
+F 1 "SW_PUSH" H 7800 1620 50  0000 C CNN
+F 2 "" H 7800 1700 50  0001 C CNN
+F 3 "" H 7800 1700 50  0000 C CNN
+	1    7800 1700
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Switch:SW_MEC_5G SW?
+U 1 1 5FFFEDC7
+P 8500 1700
+AR Path="/5FFFEDC7" Ref="SW?"  Part="1" 
+AR Path="/5FD3D43D/5FFFEDC7" Ref="SW?"  Part="1" 
+F 0 "SW?" H 8650 1810 50  0000 C CNN
+F 1 "SW_PUSH" H 8500 1620 50  0000 C CNN
+F 2 "" H 8500 1700 50  0001 C CNN
+F 3 "" H 8500 1700 50  0000 C CNN
+	1    8500 1700
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Switch:SW_MEC_5G SW?
+U 1 1 5FFFEDCD
+P 9200 1700
+AR Path="/5FFFEDCD" Ref="SW?"  Part="1" 
+AR Path="/5FD3D43D/5FFFEDCD" Ref="SW?"  Part="1" 
+F 0 "SW?" H 9350 1810 50  0000 C CNN
+F 1 "SW_PUSH" H 9200 1620 50  0000 C CNN
+F 2 "" H 9200 1700 50  0001 C CNN
+F 3 "" H 9200 1700 50  0000 C CNN
+	1    9200 1700
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Switch:SW_MEC_5G SW?
+U 1 1 5FFFEDD3
+P 9900 1700
+AR Path="/5FFFEDD3" Ref="SW?"  Part="1" 
+AR Path="/5FD3D43D/5FFFEDD3" Ref="SW?"  Part="1" 
+F 0 "SW?" H 10050 1810 50  0000 C CNN
+F 1 "SW_PUSH" H 9900 1620 50  0000 C CNN
+F 2 "" H 9900 1700 50  0001 C CNN
+F 3 "" H 9900 1700 50  0000 C CNN
+	1    9900 1700
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Switch:SW_MEC_5G SW?
+U 1 1 5FFFEDD9
+P 7100 1050
+AR Path="/5FFFEDD9" Ref="SW?"  Part="1" 
+AR Path="/5FD3D43D/5FFFEDD9" Ref="SW?"  Part="1" 
+F 0 "SW?" H 7250 1160 50  0000 C CNN
+F 1 "SW_PUSH" H 7100 970 50  0000 C CNN
+F 2 "" H 7100 1050 50  0001 C CNN
+F 3 "" H 7100 1050 50  0000 C CNN
+	1    7100 1050
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Switch:SW_MEC_5G SW?
+U 1 1 5FFFEDDF
+P 7800 1050
+AR Path="/5FFFEDDF" Ref="SW?"  Part="1" 
+AR Path="/5FD3D43D/5FFFEDDF" Ref="SW?"  Part="1" 
+F 0 "SW?" H 7950 1160 50  0000 C CNN
+F 1 "SW_PUSH" H 7800 970 50  0000 C CNN
+F 2 "" H 7800 1050 50  0001 C CNN
+F 3 "" H 7800 1050 50  0000 C CNN
+	1    7800 1050
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Switch:SW_MEC_5G SW?
+U 1 1 5FFFEDE5
+P 8500 1050
+AR Path="/5FFFEDE5" Ref="SW?"  Part="1" 
+AR Path="/5FD3D43D/5FFFEDE5" Ref="SW?"  Part="1" 
+F 0 "SW?" H 8650 1160 50  0000 C CNN
+F 1 "SW_PUSH" H 8500 970 50  0000 C CNN
+F 2 "" H 8500 1050 50  0001 C CNN
+F 3 "" H 8500 1050 50  0000 C CNN
+	1    8500 1050
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Switch:SW_MEC_5G SW?
+U 1 1 5FFFEDEB
+P 9200 1050
+AR Path="/5FFFEDEB" Ref="SW?"  Part="1" 
+AR Path="/5FD3D43D/5FFFEDEB" Ref="SW?"  Part="1" 
+F 0 "SW?" H 9350 1160 50  0000 C CNN
+F 1 "SW_PUSH" H 9200 970 50  0000 C CNN
+F 2 "" H 9200 1050 50  0001 C CNN
+F 3 "" H 9200 1050 50  0000 C CNN
+	1    9200 1050
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Switch:SW_MEC_5G SW?
+U 1 1 5FFFEDF1
+P 9900 1050
+AR Path="/5FFFEDF1" Ref="SW?"  Part="1" 
+AR Path="/5FD3D43D/5FFFEDF1" Ref="SW?"  Part="1" 
+F 0 "SW?" H 10050 1160 50  0000 C CNN
+F 1 "SW_PUSH" H 9900 970 50  0000 C CNN
+F 2 "" H 9900 1050 50  0001 C CNN
+F 3 "" H 9900 1050 50  0000 C CNN
+	1    9900 1050
+	-1   0    0    -1  
+$EndComp
+Text GLabel 5500 3350 2    50   Input ~ 0
+GND_R
+Wire Wire Line
+	5500 3250 5500 3350
+Connection ~ 5500 3250
+Wire Wire Line
+	5500 3250 5350 3250
+$Sheet
+S 650  6400 2850 1100
+U 60063777
+F0 "leftController" 50
+F1 "leftController.sch" 50
+$EndSheet
+$Sheet
+S 8200 3000 2900 1400
+U 60063B08
+F0 "rightController" 50
+F1 "rightController.sch" 50
+$EndSheet
+Wire Wire Line
+	6800 1050 6900 1050
+Wire Wire Line
+	4950 5400 4950 5700
+Wire Wire Line
+	4950 4750 4950 5100
+Wire Wire Line
+	6800 2000 6800 2300
+Wire Wire Line
+	6800 1350 6800 1700
+Wire Wire Line
+	7300 1050 7400 1050
+Wire Wire Line
+	7500 1050 7600 1050
+Wire Wire Line
+	8000 1050 8100 1050
+Wire Wire Line
+	8200 1050 8300 1050
+Wire Wire Line
+	8700 1050 8800 1050
+Wire Wire Line
+	8900 1050 9000 1050
+Wire Wire Line
+	6800 1700 6900 1700
+Connection ~ 6800 1700
+Wire Wire Line
+	6800 1700 6800 2000
+Wire Wire Line
+	7300 1700 7400 1700
+Wire Wire Line
+	7500 1700 7600 1700
+Wire Wire Line
+	8000 1700 8100 1700
+Wire Wire Line
+	8200 1700 8300 1700
+Wire Wire Line
+	8700 1700 8800 1700
+Wire Wire Line
+	8900 1700 9000 1700
+Wire Wire Line
+	9500 1050 9400 1050
+Wire Wire Line
+	9600 1050 9700 1050
+Wire Wire Line
+	10100 1050 10200 1050
+Wire Wire Line
+	10300 1050 10400 1050
+Wire Wire Line
+	10800 1050 10900 1050
+Wire Wire Line
+	10900 1700 10800 1700
+Wire Wire Line
+	10400 1700 10300 1700
+Wire Wire Line
+	10200 1700 10100 1700
+Wire Wire Line
+	9700 1700 9600 1700
+Wire Wire Line
+	9500 1700 9400 1700
+Wire Wire Line
+	6100 2300 6200 2300
+Wire Wire Line
+	6600 2300 6700 2300
+Wire Wire Line
+	6900 2300 6800 2300
+Connection ~ 6800 2300
+Wire Wire Line
+	6800 2300 6800 2600
+Wire Wire Line
+	7300 2300 7400 2300
+Wire Wire Line
+	7500 2300 7600 2300
+Wire Wire Line
+	8000 2300 8100 2300
+Wire Wire Line
+	8200 2300 8300 2300
+Wire Wire Line
+	8700 2300 8800 2300
+Wire Wire Line
+	8900 2300 9000 2300
+Wire Wire Line
+	9400 2300 9500 2300
+Wire Wire Line
+	9600 2300 9700 2300
+Wire Wire Line
+	10100 2300 10200 2300
+Wire Wire Line
+	10300 2300 10400 2300
+Wire Wire Line
+	10800 2300 10900 2300
+Wire Wire Line
+	8050 2950 7950 2950
+Wire Wire Line
+	7550 2950 7450 2950
+Wire Wire Line
+	7350 2950 7250 2950
+Wire Wire Line
+	6850 2950 6750 2950
+Wire Wire Line
+	6650 2950 6550 2950
+Wire Wire Line
+	6150 2950 6050 2950
+Wire Wire Line
+	5950 2950 5850 2950
+Wire Wire Line
+	5450 2950 5350 2950
+Wire Wire Line
+	850  4450 950  4450
+Wire Wire Line
+	1350 4450 1450 4450
+Wire Wire Line
+	1550 4450 1650 4450
+Wire Wire Line
+	2050 4450 2150 4450
+Wire Wire Line
+	2250 4450 2350 4450
+Wire Wire Line
+	2750 4450 2850 4450
+Wire Wire Line
+	2950 4450 3050 4450
+Wire Wire Line
+	850  5100 950  5100
+Wire Wire Line
+	1350 5100 1450 5100
+Wire Wire Line
+	1550 5100 1650 5100
+Wire Wire Line
+	2050 5100 2150 5100
+Wire Wire Line
+	2250 5100 2350 5100
+Wire Wire Line
+	2750 5100 2850 5100
+Wire Wire Line
+	850  5700 950  5700
+Wire Wire Line
+	1350 5700 1450 5700
+Wire Wire Line
+	1550 5700 1650 5700
+Wire Wire Line
+	2050 5700 2150 5700
+Wire Wire Line
+	2250 5700 2350 5700
+Wire Wire Line
+	2750 5700 2850 5700
+Wire Wire Line
+	2950 5700 3050 5700
+Wire Wire Line
+	3450 5700 3550 5700
+Wire Wire Line
+	3650 5700 3750 5700
+Wire Wire Line
+	4150 5700 4250 5700
+Wire Wire Line
+	4350 5700 4450 5700
+Wire Wire Line
+	4850 5700 4950 5700
+Connection ~ 4950 5700
+Wire Wire Line
+	4950 5700 4950 6000
+Wire Wire Line
+	5050 5700 5150 5700
+Wire Wire Line
+	2950 5100 3050 5100
+Wire Wire Line
+	3450 5100 3550 5100
+Wire Wire Line
+	3650 5100 3750 5100
+Wire Wire Line
+	4150 5100 4250 5100
+Wire Wire Line
+	4350 5100 4450 5100
+Wire Wire Line
+	4850 5100 4950 5100
+Connection ~ 4950 5100
+Wire Wire Line
+	4950 5100 4950 5400
+Wire Wire Line
+	4950 4450 4850 4450
+Wire Wire Line
+	4450 4450 4350 4450
+Wire Wire Line
+	4250 4450 4150 4450
+Wire Wire Line
+	3750 4450 3650 4450
+Wire Wire Line
+	3550 4450 3450 4450
+Wire Wire Line
+	5550 5700 5650 5700
+Wire Wire Line
+	3700 6350 3800 6350
+Wire Wire Line
+	4200 6350 4300 6350
+Wire Wire Line
+	4400 6350 4500 6350
+Wire Wire Line
+	4900 6350 5000 6350
+Wire Wire Line
+	5100 6350 5200 6350
+Wire Wire Line
+	5600 6350 5700 6350
+Wire Wire Line
+	5800 6350 5900 6350
+Wire Wire Line
+	6300 6350 6400 6350
+Wire Wire Line
+	5650 6000 6400 6000
+Wire Wire Line
+	6400 6000 6400 6350
+Connection ~ 5650 6000
+Connection ~ 6400 6350
+Wire Wire Line
+	6100 2600 5350 2600
+Wire Wire Line
+	5350 2600 5350 2950
+Connection ~ 6100 2600
+Connection ~ 5350 2950
+$EndSCHEMATC
