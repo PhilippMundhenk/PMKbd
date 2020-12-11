@@ -21,8 +21,8 @@ U 1 1 6008621E
 P 7450 5400
 AR Path="/6008621E" Ref="J?"  Part="1" 
 AR Path="/5FEABC8D/6008621E" Ref="J?"  Part="1" 
-AR Path="/60063777/6008621E" Ref="J?"  Part="1" 
-F 0 "J?" H 7530 5442 50  0000 L CNN
+AR Path="/60063777/6008621E" Ref="J28"  Part="1" 
+F 0 "J28" H 7530 5442 50  0000 L CNN
 F 1 "Conn_01x01" H 7530 5351 50  0000 L CNN
 F 2 "Connector_Wire:SolderWirePad_1x01_SMD_1x2mm" H 7450 5400 50  0001 C CNN
 F 3 "~" H 7450 5400 50  0001 C CNN
@@ -37,8 +37,8 @@ U 1 1 60086225
 P 7450 5600
 AR Path="/60086225" Ref="J?"  Part="1" 
 AR Path="/5FEABC8D/60086225" Ref="J?"  Part="1" 
-AR Path="/60063777/60086225" Ref="J?"  Part="1" 
-F 0 "J?" H 7530 5642 50  0000 L CNN
+AR Path="/60063777/60086225" Ref="J31"  Part="1" 
+F 0 "J31" H 7530 5642 50  0000 L CNN
 F 1 "Conn_01x01" H 7530 5551 50  0000 L CNN
 F 2 "Connector_Wire:SolderWirePad_1x01_SMD_1x2mm" H 7450 5600 50  0001 C CNN
 F 3 "~" H 7450 5600 50  0001 C CNN
@@ -52,8 +52,8 @@ U 1 1 6008622C
 P 7450 5800
 AR Path="/6008622C" Ref="J?"  Part="1" 
 AR Path="/5FEABC8D/6008622C" Ref="J?"  Part="1" 
-AR Path="/60063777/6008622C" Ref="J?"  Part="1" 
-F 0 "J?" H 7530 5842 50  0000 L CNN
+AR Path="/60063777/6008622C" Ref="J32"  Part="1" 
+F 0 "J32" H 7530 5842 50  0000 L CNN
 F 1 "Conn_01x01" H 7530 5751 50  0000 L CNN
 F 2 "Connector_Wire:SolderWirePad_1x01_SMD_1x2mm" H 7450 5800 50  0001 C CNN
 F 3 "~" H 7450 5800 50  0001 C CNN
@@ -74,8 +74,8 @@ U 1 1 60086236
 P 4850 1850
 AR Path="/60086236" Ref="J?"  Part="1" 
 AR Path="/5FEABC8D/60086236" Ref="J?"  Part="1" 
-AR Path="/60063777/60086236" Ref="J?"  Part="1" 
-F 0 "J?" H 4930 1892 50  0000 L CNN
+AR Path="/60063777/60086236" Ref="J30"  Part="1" 
+F 0 "J30" H 4930 1892 50  0000 L CNN
 F 1 "Conn_01x01" H 4930 1801 50  0000 L CNN
 F 2 "Connector_Wire:SolderWirePad_1x01_SMD_1x2mm" H 4850 1850 50  0001 C CNN
 F 3 "~" H 4850 1850 50  0001 C CNN
@@ -88,8 +88,8 @@ U 1 1 6008623C
 P 4850 1650
 AR Path="/6008623C" Ref="J?"  Part="1" 
 AR Path="/5FEABC8D/6008623C" Ref="J?"  Part="1" 
-AR Path="/60063777/6008623C" Ref="J?"  Part="1" 
-F 0 "J?" H 4930 1692 50  0000 L CNN
+AR Path="/60063777/6008623C" Ref="J29"  Part="1" 
+F 0 "J29" H 4930 1692 50  0000 L CNN
 F 1 "Conn_01x01" H 4930 1601 50  0000 L CNN
 F 2 "Connector_Wire:SolderWirePad_1x01_SMD_1x2mm" H 4850 1650 50  0001 C CNN
 F 3 "~" H 4850 1650 50  0001 C CNN
@@ -104,8 +104,8 @@ U 1 1 60086243
 P 7850 5800
 AR Path="/60086243" Ref="J?"  Part="1" 
 AR Path="/5FEABC8D/60086243" Ref="J?"  Part="1" 
-AR Path="/60063777/60086243" Ref="J?"  Part="1" 
-F 0 "J?" H 7930 5842 50  0000 L CNN
+AR Path="/60063777/60086243" Ref="J33"  Part="1" 
+F 0 "J33" H 7930 5842 50  0000 L CNN
 F 1 "Conn_01x01" H 7930 5751 50  0000 L CNN
 F 2 "Connector_Wire:SolderWirePad_1x01_SMD_1x2mm" H 7850 5800 50  0001 C CNN
 F 3 "~" H 7850 5800 50  0001 C CNN
@@ -118,8 +118,8 @@ U 1 1 60086249
 P 4950 6450
 AR Path="/60086249" Ref="J?"  Part="1" 
 AR Path="/5FEABC8D/60086249" Ref="J?"  Part="1" 
-AR Path="/60063777/60086249" Ref="J?"  Part="1" 
-F 0 "J?" V 4822 6530 50  0000 L CNN
+AR Path="/60063777/60086249" Ref="J27"  Part="1" 
+F 0 "J27" V 4822 6530 50  0000 L CNN
 F 1 "Conn_01x01" V 4913 6530 50  0000 L CNN
 F 2 "Connector_Wire:SolderWirePad_1x01_SMD_1x2mm" H 4950 6450 50  0001 C CNN
 F 3 "~" H 4950 6450 50  0001 C CNN
@@ -132,8 +132,8 @@ U 1 1 6008624F
 P 4950 5750
 AR Path="/6008624F" Ref="J?"  Part="1" 
 AR Path="/5FEABC8D/6008624F" Ref="J?"  Part="1" 
-AR Path="/60063777/6008624F" Ref="J?"  Part="1" 
-F 0 "J?" V 4914 5662 50  0000 R CNN
+AR Path="/60063777/6008624F" Ref="J26"  Part="1" 
+F 0 "J26" V 4914 5662 50  0000 R CNN
 F 1 "Conn_01x01" V 4823 5662 50  0000 R CNN
 F 2 "Connector_Wire:SolderWirePad_1x01_SMD_1x2mm" H 4950 5750 50  0001 C CNN
 F 3 "~" H 4950 5750 50  0001 C CNN
@@ -146,8 +146,8 @@ U 1 1 60086255
 P 9950 5750
 AR Path="/60086255" Ref="J?"  Part="1" 
 AR Path="/5FEABC8D/60086255" Ref="J?"  Part="1" 
-AR Path="/60063777/60086255" Ref="J?"  Part="1" 
-F 0 "J?" H 10030 5792 50  0000 L CNN
+AR Path="/60063777/60086255" Ref="J25"  Part="1" 
+F 0 "J25" H 10030 5792 50  0000 L CNN
 F 1 "Conn_01x01" H 10030 5701 50  0000 L CNN
 F 2 "Connector_Wire:SolderWirePad_1x01_SMD_1x2mm" H 9950 5750 50  0001 C CNN
 F 3 "~" H 9950 5750 50  0001 C CNN
@@ -160,8 +160,8 @@ U 1 1 6008625B
 P 9950 5550
 AR Path="/6008625B" Ref="J?"  Part="1" 
 AR Path="/5FEABC8D/6008625B" Ref="J?"  Part="1" 
-AR Path="/60063777/6008625B" Ref="J?"  Part="1" 
-F 0 "J?" H 10030 5592 50  0000 L CNN
+AR Path="/60063777/6008625B" Ref="J24"  Part="1" 
+F 0 "J24" H 10030 5592 50  0000 L CNN
 F 1 "Conn_01x01" H 10030 5501 50  0000 L CNN
 F 2 "Connector_Wire:SolderWirePad_1x01_SMD_1x2mm" H 9950 5550 50  0001 C CNN
 F 3 "~" H 9950 5550 50  0001 C CNN
@@ -174,8 +174,8 @@ U 1 1 60086261
 P 9950 5350
 AR Path="/60086261" Ref="J?"  Part="1" 
 AR Path="/5FEABC8D/60086261" Ref="J?"  Part="1" 
-AR Path="/60063777/60086261" Ref="J?"  Part="1" 
-F 0 "J?" H 10030 5392 50  0000 L CNN
+AR Path="/60063777/60086261" Ref="J23"  Part="1" 
+F 0 "J23" H 10030 5392 50  0000 L CNN
 F 1 "Conn_01x01" H 10030 5301 50  0000 L CNN
 F 2 "Connector_Wire:SolderWirePad_1x01_SMD_1x2mm" H 9950 5350 50  0001 C CNN
 F 3 "~" H 9950 5350 50  0001 C CNN
@@ -188,8 +188,8 @@ U 1 1 60086267
 P 9950 5150
 AR Path="/60086267" Ref="J?"  Part="1" 
 AR Path="/5FEABC8D/60086267" Ref="J?"  Part="1" 
-AR Path="/60063777/60086267" Ref="J?"  Part="1" 
-F 0 "J?" H 10030 5192 50  0000 L CNN
+AR Path="/60063777/60086267" Ref="J22"  Part="1" 
+F 0 "J22" H 10030 5192 50  0000 L CNN
 F 1 "Conn_01x01" H 10030 5101 50  0000 L CNN
 F 2 "Connector_Wire:SolderWirePad_1x01_SMD_1x2mm" H 9950 5150 50  0001 C CNN
 F 3 "~" H 9950 5150 50  0001 C CNN
@@ -202,8 +202,8 @@ U 1 1 6008626D
 P 9950 4950
 AR Path="/6008626D" Ref="J?"  Part="1" 
 AR Path="/5FEABC8D/6008626D" Ref="J?"  Part="1" 
-AR Path="/60063777/6008626D" Ref="J?"  Part="1" 
-F 0 "J?" H 10030 4992 50  0000 L CNN
+AR Path="/60063777/6008626D" Ref="J21"  Part="1" 
+F 0 "J21" H 10030 4992 50  0000 L CNN
 F 1 "Conn_01x01" H 10030 4901 50  0000 L CNN
 F 2 "Connector_Wire:SolderWirePad_1x01_SMD_1x2mm" H 9950 4950 50  0001 C CNN
 F 3 "~" H 9950 4950 50  0001 C CNN
@@ -216,8 +216,8 @@ U 1 1 60086273
 P 9950 4750
 AR Path="/60086273" Ref="J?"  Part="1" 
 AR Path="/5FEABC8D/60086273" Ref="J?"  Part="1" 
-AR Path="/60063777/60086273" Ref="J?"  Part="1" 
-F 0 "J?" H 10030 4792 50  0000 L CNN
+AR Path="/60063777/60086273" Ref="J20"  Part="1" 
+F 0 "J20" H 10030 4792 50  0000 L CNN
 F 1 "Conn_01x01" H 10030 4701 50  0000 L CNN
 F 2 "Connector_Wire:SolderWirePad_1x01_SMD_1x2mm" H 9950 4750 50  0001 C CNN
 F 3 "~" H 9950 4750 50  0001 C CNN
@@ -230,8 +230,8 @@ U 1 1 60086279
 P 9950 4550
 AR Path="/60086279" Ref="J?"  Part="1" 
 AR Path="/5FEABC8D/60086279" Ref="J?"  Part="1" 
-AR Path="/60063777/60086279" Ref="J?"  Part="1" 
-F 0 "J?" H 10030 4592 50  0000 L CNN
+AR Path="/60063777/60086279" Ref="J19"  Part="1" 
+F 0 "J19" H 10030 4592 50  0000 L CNN
 F 1 "Conn_01x01" H 10030 4501 50  0000 L CNN
 F 2 "Connector_Wire:SolderWirePad_1x01_SMD_1x2mm" H 9950 4550 50  0001 C CNN
 F 3 "~" H 9950 4550 50  0001 C CNN
@@ -244,8 +244,8 @@ U 1 1 6008627F
 P 9950 4350
 AR Path="/6008627F" Ref="J?"  Part="1" 
 AR Path="/5FEABC8D/6008627F" Ref="J?"  Part="1" 
-AR Path="/60063777/6008627F" Ref="J?"  Part="1" 
-F 0 "J?" H 10030 4392 50  0000 L CNN
+AR Path="/60063777/6008627F" Ref="J18"  Part="1" 
+F 0 "J18" H 10030 4392 50  0000 L CNN
 F 1 "Conn_01x01" H 10030 4301 50  0000 L CNN
 F 2 "Connector_Wire:SolderWirePad_1x01_SMD_1x2mm" H 9950 4350 50  0001 C CNN
 F 3 "~" H 9950 4350 50  0001 C CNN
@@ -258,8 +258,8 @@ U 1 1 60086285
 P 9950 4150
 AR Path="/60086285" Ref="J?"  Part="1" 
 AR Path="/5FEABC8D/60086285" Ref="J?"  Part="1" 
-AR Path="/60063777/60086285" Ref="J?"  Part="1" 
-F 0 "J?" H 10030 4192 50  0000 L CNN
+AR Path="/60063777/60086285" Ref="J17"  Part="1" 
+F 0 "J17" H 10030 4192 50  0000 L CNN
 F 1 "Conn_01x01" H 10030 4101 50  0000 L CNN
 F 2 "Connector_Wire:SolderWirePad_1x01_SMD_1x2mm" H 9950 4150 50  0001 C CNN
 F 3 "~" H 9950 4150 50  0001 C CNN
@@ -272,8 +272,8 @@ U 1 1 6008628B
 P 9950 3950
 AR Path="/6008628B" Ref="J?"  Part="1" 
 AR Path="/5FEABC8D/6008628B" Ref="J?"  Part="1" 
-AR Path="/60063777/6008628B" Ref="J?"  Part="1" 
-F 0 "J?" H 10030 3992 50  0000 L CNN
+AR Path="/60063777/6008628B" Ref="J16"  Part="1" 
+F 0 "J16" H 10030 3992 50  0000 L CNN
 F 1 "Conn_01x01" H 10030 3901 50  0000 L CNN
 F 2 "Connector_Wire:SolderWirePad_1x01_SMD_1x2mm" H 9950 3950 50  0001 C CNN
 F 3 "~" H 9950 3950 50  0001 C CNN
@@ -286,8 +286,8 @@ U 1 1 60086291
 P 9950 3750
 AR Path="/60086291" Ref="J?"  Part="1" 
 AR Path="/5FEABC8D/60086291" Ref="J?"  Part="1" 
-AR Path="/60063777/60086291" Ref="J?"  Part="1" 
-F 0 "J?" H 10030 3792 50  0000 L CNN
+AR Path="/60063777/60086291" Ref="J15"  Part="1" 
+F 0 "J15" H 10030 3792 50  0000 L CNN
 F 1 "Conn_01x01" H 10030 3701 50  0000 L CNN
 F 2 "Connector_Wire:SolderWirePad_1x01_SMD_1x2mm" H 9950 3750 50  0001 C CNN
 F 3 "~" H 9950 3750 50  0001 C CNN
@@ -300,8 +300,8 @@ U 1 1 60086297
 P 9950 3550
 AR Path="/60086297" Ref="J?"  Part="1" 
 AR Path="/5FEABC8D/60086297" Ref="J?"  Part="1" 
-AR Path="/60063777/60086297" Ref="J?"  Part="1" 
-F 0 "J?" H 10030 3592 50  0000 L CNN
+AR Path="/60063777/60086297" Ref="J14"  Part="1" 
+F 0 "J14" H 10030 3592 50  0000 L CNN
 F 1 "Conn_01x01" H 10030 3501 50  0000 L CNN
 F 2 "Connector_Wire:SolderWirePad_1x01_SMD_1x2mm" H 9950 3550 50  0001 C CNN
 F 3 "~" H 9950 3550 50  0001 C CNN
@@ -314,8 +314,8 @@ U 1 1 6008629D
 P 8600 5550
 AR Path="/6008629D" Ref="J?"  Part="1" 
 AR Path="/5FEABC8D/6008629D" Ref="J?"  Part="1" 
-AR Path="/60063777/6008629D" Ref="J?"  Part="1" 
-F 0 "J?" H 8680 5592 50  0000 L CNN
+AR Path="/60063777/6008629D" Ref="J13"  Part="1" 
+F 0 "J13" H 8680 5592 50  0000 L CNN
 F 1 "Conn_01x01" H 8680 5501 50  0000 L CNN
 F 2 "Connector_Wire:SolderWirePad_1x01_SMD_1x2mm" H 8600 5550 50  0001 C CNN
 F 3 "~" H 8600 5550 50  0001 C CNN
@@ -328,8 +328,8 @@ U 1 1 600862A3
 P 8600 5350
 AR Path="/600862A3" Ref="J?"  Part="1" 
 AR Path="/5FEABC8D/600862A3" Ref="J?"  Part="1" 
-AR Path="/60063777/600862A3" Ref="J?"  Part="1" 
-F 0 "J?" H 8680 5392 50  0000 L CNN
+AR Path="/60063777/600862A3" Ref="J12"  Part="1" 
+F 0 "J12" H 8680 5392 50  0000 L CNN
 F 1 "Conn_01x01" H 8680 5301 50  0000 L CNN
 F 2 "Connector_Wire:SolderWirePad_1x01_SMD_1x2mm" H 8600 5350 50  0001 C CNN
 F 3 "~" H 8600 5350 50  0001 C CNN
@@ -342,8 +342,8 @@ U 1 1 600862A9
 P 8600 5150
 AR Path="/600862A9" Ref="J?"  Part="1" 
 AR Path="/5FEABC8D/600862A9" Ref="J?"  Part="1" 
-AR Path="/60063777/600862A9" Ref="J?"  Part="1" 
-F 0 "J?" H 8680 5192 50  0000 L CNN
+AR Path="/60063777/600862A9" Ref="J11"  Part="1" 
+F 0 "J11" H 8680 5192 50  0000 L CNN
 F 1 "Conn_01x01" H 8680 5101 50  0000 L CNN
 F 2 "Connector_Wire:SolderWirePad_1x01_SMD_1x2mm" H 8600 5150 50  0001 C CNN
 F 3 "~" H 8600 5150 50  0001 C CNN
@@ -356,8 +356,8 @@ U 1 1 600862AF
 P 8600 4950
 AR Path="/600862AF" Ref="J?"  Part="1" 
 AR Path="/5FEABC8D/600862AF" Ref="J?"  Part="1" 
-AR Path="/60063777/600862AF" Ref="J?"  Part="1" 
-F 0 "J?" H 8680 4992 50  0000 L CNN
+AR Path="/60063777/600862AF" Ref="J10"  Part="1" 
+F 0 "J10" H 8680 4992 50  0000 L CNN
 F 1 "Conn_01x01" H 8680 4901 50  0000 L CNN
 F 2 "Connector_Wire:SolderWirePad_1x01_SMD_1x2mm" H 8600 4950 50  0001 C CNN
 F 3 "~" H 8600 4950 50  0001 C CNN
@@ -370,8 +370,8 @@ U 1 1 600862B5
 P 8600 4750
 AR Path="/600862B5" Ref="J?"  Part="1" 
 AR Path="/5FEABC8D/600862B5" Ref="J?"  Part="1" 
-AR Path="/60063777/600862B5" Ref="J?"  Part="1" 
-F 0 "J?" H 8680 4792 50  0000 L CNN
+AR Path="/60063777/600862B5" Ref="J9"  Part="1" 
+F 0 "J9" H 8680 4792 50  0000 L CNN
 F 1 "Conn_01x01" H 8680 4701 50  0000 L CNN
 F 2 "Connector_Wire:SolderWirePad_1x01_SMD_1x2mm" H 8600 4750 50  0001 C CNN
 F 3 "~" H 8600 4750 50  0001 C CNN
@@ -384,8 +384,8 @@ U 1 1 600862BB
 P 8600 4550
 AR Path="/600862BB" Ref="J?"  Part="1" 
 AR Path="/5FEABC8D/600862BB" Ref="J?"  Part="1" 
-AR Path="/60063777/600862BB" Ref="J?"  Part="1" 
-F 0 "J?" H 8680 4592 50  0000 L CNN
+AR Path="/60063777/600862BB" Ref="J8"  Part="1" 
+F 0 "J8" H 8680 4592 50  0000 L CNN
 F 1 "Conn_01x01" H 8680 4501 50  0000 L CNN
 F 2 "Connector_Wire:SolderWirePad_1x01_SMD_1x2mm" H 8600 4550 50  0001 C CNN
 F 3 "~" H 8600 4550 50  0001 C CNN
@@ -398,8 +398,8 @@ U 1 1 600862C1
 P 8600 4350
 AR Path="/600862C1" Ref="J?"  Part="1" 
 AR Path="/5FEABC8D/600862C1" Ref="J?"  Part="1" 
-AR Path="/60063777/600862C1" Ref="J?"  Part="1" 
-F 0 "J?" H 8680 4392 50  0000 L CNN
+AR Path="/60063777/600862C1" Ref="J7"  Part="1" 
+F 0 "J7" H 8680 4392 50  0000 L CNN
 F 1 "Conn_01x01" H 8680 4301 50  0000 L CNN
 F 2 "Connector_Wire:SolderWirePad_1x01_SMD_1x2mm" H 8600 4350 50  0001 C CNN
 F 3 "~" H 8600 4350 50  0001 C CNN
@@ -412,8 +412,8 @@ U 1 1 600862C7
 P 8600 4150
 AR Path="/600862C7" Ref="J?"  Part="1" 
 AR Path="/5FEABC8D/600862C7" Ref="J?"  Part="1" 
-AR Path="/60063777/600862C7" Ref="J?"  Part="1" 
-F 0 "J?" H 8680 4192 50  0000 L CNN
+AR Path="/60063777/600862C7" Ref="J6"  Part="1" 
+F 0 "J6" H 8680 4192 50  0000 L CNN
 F 1 "Conn_01x01" H 8680 4101 50  0000 L CNN
 F 2 "Connector_Wire:SolderWirePad_1x01_SMD_1x2mm" H 8680 4055 50  0001 L CNN
 F 3 "~" H 8600 4150 50  0001 C CNN
@@ -426,8 +426,8 @@ U 1 1 600862CD
 P 8600 3950
 AR Path="/600862CD" Ref="J?"  Part="1" 
 AR Path="/5FEABC8D/600862CD" Ref="J?"  Part="1" 
-AR Path="/60063777/600862CD" Ref="J?"  Part="1" 
-F 0 "J?" H 8680 3992 50  0000 L CNN
+AR Path="/60063777/600862CD" Ref="J5"  Part="1" 
+F 0 "J5" H 8680 3992 50  0000 L CNN
 F 1 "Conn_01x01" H 8680 3901 50  0000 L CNN
 F 2 "Connector_Wire:SolderWirePad_1x01_SMD_1x2mm" H 8600 3950 50  0001 C CNN
 F 3 "~" H 8600 3950 50  0001 C CNN
@@ -440,8 +440,8 @@ U 1 1 600862D3
 P 8600 3750
 AR Path="/600862D3" Ref="J?"  Part="1" 
 AR Path="/5FEABC8D/600862D3" Ref="J?"  Part="1" 
-AR Path="/60063777/600862D3" Ref="J?"  Part="1" 
-F 0 "J?" H 8680 3792 50  0000 L CNN
+AR Path="/60063777/600862D3" Ref="J4"  Part="1" 
+F 0 "J4" H 8680 3792 50  0000 L CNN
 F 1 "Conn_01x01" H 8680 3701 50  0000 L CNN
 F 2 "Connector_Wire:SolderWirePad_1x01_SMD_1x2mm" H 8600 3750 50  0001 C CNN
 F 3 "~" H 8600 3750 50  0001 C CNN
@@ -454,8 +454,8 @@ U 1 1 600862D9
 P 8600 3550
 AR Path="/600862D9" Ref="J?"  Part="1" 
 AR Path="/5FEABC8D/600862D9" Ref="J?"  Part="1" 
-AR Path="/60063777/600862D9" Ref="J?"  Part="1" 
-F 0 "J?" H 8680 3592 50  0000 L CNN
+AR Path="/60063777/600862D9" Ref="J3"  Part="1" 
+F 0 "J3" H 8680 3592 50  0000 L CNN
 F 1 "Conn_01x01" H 8680 3501 50  0000 L CNN
 F 2 "Connector_Wire:SolderWirePad_1x01_SMD_1x2mm" H 8600 3550 50  0001 C CNN
 F 3 "~" H 8600 3550 50  0001 C CNN
@@ -470,8 +470,8 @@ U 1 1 600862E0
 P 7250 4050
 AR Path="/600862E0" Ref="J?"  Part="1" 
 AR Path="/5FEABC8D/600862E0" Ref="J?"  Part="1" 
-AR Path="/60063777/600862E0" Ref="J?"  Part="1" 
-F 0 "J?" H 7330 4092 50  0000 L CNN
+AR Path="/60063777/600862E0" Ref="J2"  Part="1" 
+F 0 "J2" H 7330 4092 50  0000 L CNN
 F 1 "Conn_01x01" H 7330 4001 50  0000 L CNN
 F 2 "Connector_Wire:SolderWirePad_1x01_SMD_1x2mm" H 7250 4050 50  0001 C CNN
 F 3 "~" H 7250 4050 50  0001 C CNN
@@ -484,8 +484,8 @@ U 1 1 600862E6
 P 7250 3900
 AR Path="/600862E6" Ref="J?"  Part="1" 
 AR Path="/5FEABC8D/600862E6" Ref="J?"  Part="1" 
-AR Path="/60063777/600862E6" Ref="J?"  Part="1" 
-F 0 "J?" H 7330 3942 50  0000 L CNN
+AR Path="/60063777/600862E6" Ref="J1"  Part="1" 
+F 0 "J1" H 7330 3942 50  0000 L CNN
 F 1 "Conn_01x01" H 7330 3851 50  0000 L CNN
 F 2 "Connector_Wire:SolderWirePad_1x01_SMD_1x2mm" H 7250 3900 50  0001 C CNN
 F 3 "~" H 7250 3900 50  0001 C CNN
@@ -710,20 +710,6 @@ F 3 "DOCUMENTATION" H 2950 1850 50  0001 C CNN
 $EndComp
 Text Notes 1600 5250 2    50   ~ 0
 Power Supply
-$Comp
-L power:GND #PWR?
-U 1 1 60086355
-P 6500 4500
-AR Path="/60086355" Ref="#PWR?"  Part="1" 
-AR Path="/5FEABC8D/60086355" Ref="#PWR?"  Part="1" 
-AR Path="/60063777/60086355" Ref="#PWR?"  Part="1" 
-F 0 "#PWR?" H 6500 4250 50  0001 C CNN
-F 1 "GND" H 6505 4327 50  0000 C CNN
-F 2 "" H 6500 4500 50  0001 C CNN
-F 3 "" H 6500 4500 50  0001 C CNN
-	1    6500 4500
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	2150 6700 2300 6700
 Wire Wire Line
@@ -910,8 +896,6 @@ S20
 Text GLabel 4400 1600 2    50   Input ~ 0
 S21
 Wire Wire Line
-	4300 1300 4750 1300
-Wire Wire Line
 	3500 2900 3500 3150
 Wire Wire Line
 	3400 2900 3400 3150
@@ -1000,8 +984,6 @@ F 3 "~" V 4950 6210 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Connection ~ 7650 5600
-Text GLabel 4750 1200 0    50   Input ~ 0
-GND_L
 Text GLabel 1100 1200 0    50   Input ~ 0
 GND_L
 Text GLabel 3550 6250 0    50   Input ~ 0
@@ -1012,7 +994,7 @@ Text GLabel 1700 6950 0    50   Input ~ 0
 GND_L
 Text GLabel 7650 6000 0    50   Input ~ 0
 GND_L
-Text GLabel 6500 4450 0    50   Input ~ 0
+Text GLabel 6500 4500 3    50   Input ~ 0
 GND_L
 Text GLabel 4200 6450 0    50   Input ~ 0
 GND_L
@@ -1046,8 +1028,6 @@ Connection ~ 1100 1300
 Wire Wire Line
 	1100 1300 1600 1300
 Wire Wire Line
-	4750 1200 4750 1300
-Wire Wire Line
 	1750 5550 3550 5550
 Text GLabel 1750 5450 0    50   Input ~ 0
 5V_L
@@ -1058,4 +1038,96 @@ Wire Wire Line
 	1300 1700 1600 1700
 Wire Wire Line
 	1300 2100 1600 2100
+Text GLabel 1300 1500 0    50   Input ~ 0
+EXT1
+Text GLabel 1300 1600 0    50   Input ~ 0
+EXT2
+Text GLabel 1300 1800 0    50   Input ~ 0
+EXT3
+Text GLabel 4400 2300 2    50   Input ~ 0
+EXT4
+Wire Wire Line
+	4300 2300 4400 2300
+Wire Wire Line
+	1300 1800 1600 1800
+Wire Wire Line
+	1300 1600 1600 1600
+Wire Wire Line
+	1300 1500 1600 1500
+Text GLabel 4400 1300 2    50   Input ~ 0
+GND_L
+Wire Wire Line
+	4300 1300 4400 1300
+$Comp
+L Connector_Generic:Conn_01x01 J?
+U 1 1 5FD81740
+P 8600 2650
+AR Path="/5FD81740" Ref="J?"  Part="1" 
+AR Path="/5FEABC8D/5FD81740" Ref="J?"  Part="1" 
+AR Path="/60063777/5FD81740" Ref="J37"  Part="1" 
+F 0 "J37" H 8680 2692 50  0000 L CNN
+F 1 "Conn_01x01" H 8680 2601 50  0000 L CNN
+F 2 "Connector_Wire:SolderWirePad_1x01_SMD_1x2mm" H 8680 2555 50  0001 L CNN
+F 3 "~" H 8600 2650 50  0001 C CNN
+	1    8600 2650
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x01 J?
+U 1 1 5FD81746
+P 8600 2450
+AR Path="/5FD81746" Ref="J?"  Part="1" 
+AR Path="/5FEABC8D/5FD81746" Ref="J?"  Part="1" 
+AR Path="/60063777/5FD81746" Ref="J36"  Part="1" 
+F 0 "J36" H 8680 2492 50  0000 L CNN
+F 1 "Conn_01x01" H 8680 2401 50  0000 L CNN
+F 2 "Connector_Wire:SolderWirePad_1x01_SMD_1x2mm" H 8600 2450 50  0001 C CNN
+F 3 "~" H 8600 2450 50  0001 C CNN
+	1    8600 2450
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x01 J?
+U 1 1 5FD8174C
+P 8600 2250
+AR Path="/5FD8174C" Ref="J?"  Part="1" 
+AR Path="/5FEABC8D/5FD8174C" Ref="J?"  Part="1" 
+AR Path="/60063777/5FD8174C" Ref="J35"  Part="1" 
+F 0 "J35" H 8680 2292 50  0000 L CNN
+F 1 "Conn_01x01" H 8680 2201 50  0000 L CNN
+F 2 "Connector_Wire:SolderWirePad_1x01_SMD_1x2mm" H 8600 2250 50  0001 C CNN
+F 3 "~" H 8600 2250 50  0001 C CNN
+	1    8600 2250
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x01 J?
+U 1 1 5FD81752
+P 8600 2050
+AR Path="/5FD81752" Ref="J?"  Part="1" 
+AR Path="/5FEABC8D/5FD81752" Ref="J?"  Part="1" 
+AR Path="/60063777/5FD81752" Ref="J34"  Part="1" 
+F 0 "J34" H 8680 2092 50  0000 L CNN
+F 1 "Conn_01x01" H 8680 2001 50  0000 L CNN
+F 2 "Connector_Wire:SolderWirePad_1x01_SMD_1x2mm" H 8600 2050 50  0001 C CNN
+F 3 "~" H 8600 2050 50  0001 C CNN
+	1    8600 2050
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8250 2650 8400 2650
+Wire Wire Line
+	8250 2450 8400 2450
+Wire Wire Line
+	8250 2250 8400 2250
+Wire Wire Line
+	8250 2050 8400 2050
+Text GLabel 8250 2650 0    50   Input ~ 0
+EXT4
+Text GLabel 8250 2450 0    50   Input ~ 0
+EXT3
+Text GLabel 8250 2250 0    50   Input ~ 0
+EXT2
+Text GLabel 8250 2050 0    50   Input ~ 0
+EXT1
 $EndSCHEMATC
