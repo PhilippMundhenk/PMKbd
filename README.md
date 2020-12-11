@@ -1,2 +1,2 @@
 # PMKbd
-A fully wireless split Bluetooth keyboard
+A fully wireless split Bluetooth keyboard, a new creation with design based on [crkbd](https://github.com/foostan/crkbd) and connectivity based on [mitosis](https://www.reddit.com/r/MechanicalKeyboards/comments/66588f/wireless_split_qmk_mitosis/) ([hardware](https://github.com/reversebias/mitosis-hardware), [software](https://github.com/reversebias/mitosis)). Some final touches by myself.
