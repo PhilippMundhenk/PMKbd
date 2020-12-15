@@ -711,7 +711,7 @@ Power Supply
 Wire Wire Line
 	2100 6500 2250 6500
 Wire Wire Line
-	1700 5900 1700 5350
+	1700 5900 1700 5500
 Connection ~ 1700 5900
 Wire Wire Line
 	1300 5900 1700 5900
@@ -1138,4 +1138,18 @@ Text GLabel 8150 2250 0    50   Input ~ 0
 EXT6
 Text GLabel 8150 2050 0    50   Input ~ 0
 EXT5
+$Comp
+L Connector_Generic:Conn_01x01 J76
+U 1 1 5FDA714A
+P 1900 5500
+F 0 "J76" H 1980 5542 50  0000 L CNN
+F 1 "Conn_01x01" H 1980 5451 50  0000 L CNN
+F 2 "Connector_Wire:SolderWirePad_1x01_SMD_1x2mm" H 1900 5500 50  0001 C CNN
+F 3 "~" H 1900 5500 50  0001 C CNN
+	1    1900 5500
+	1    0    0    -1  
+$EndComp
+Connection ~ 1700 5500
+Wire Wire Line
+	1700 5500 1700 5350
 $EndSCHEMATC

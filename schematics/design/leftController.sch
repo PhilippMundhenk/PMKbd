@@ -713,7 +713,7 @@ Power Supply
 Wire Wire Line
 	2150 6700 2300 6700
 Wire Wire Line
-	1750 6100 1750 5550
+	1750 6100 1750 5650
 Connection ~ 1750 6100
 Wire Wire Line
 	1350 6100 1750 6100
@@ -1130,4 +1130,18 @@ Text GLabel 8250 2250 0    50   Input ~ 0
 EXT2
 Text GLabel 8250 2050 0    50   Input ~ 0
 EXT1
+$Comp
+L Connector_Generic:Conn_01x01 J75
+U 1 1 5FDA50D2
+P 1950 5650
+F 0 "J75" H 2030 5692 50  0000 L CNN
+F 1 "Conn_01x01" H 2030 5601 50  0000 L CNN
+F 2 "Connector_Wire:SolderWirePad_1x01_SMD_1x2mm" H 1950 5650 50  0001 C CNN
+F 3 "~" H 1950 5650 50  0001 C CNN
+	1    1950 5650
+	1    0    0    -1  
+$EndComp
+Connection ~ 1750 5650
+Wire Wire Line
+	1750 5650 1750 5550
 $EndSCHEMATC
